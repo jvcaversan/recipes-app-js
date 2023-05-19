@@ -1,0 +1,121 @@
+/* ==========----------PAGE LOGIN----------========== */
+
+/* -------------------------------------------------- */
+.main-container-login {
+  align-items: center;
+  background-color: #38ada9;
+  display: flex;
+  flex-direction: column;
+  height: 780px;
+  justify-content: center;
+}
+
+/* .main-div {
+  background-color: #38ada9;
+  height: 750px;
+} */
+
+.main-form-login {
+  align-items: center;
+  background-color: white;
+  border-radius: 20%;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  width: 350px;
+}
+
+.container-lottie-login {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.lottie-figure-login {
+  height: 60%;
+  width: 60%;
+}
+
+.main-title-login {
+  color: #e17055;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.label-login {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.input-login {
+  background-color: white;
+  border-bottom-color: #e17055;
+  border-bottom-width: 1px;
+  border-left: 0;
+  border-radius: 5px;
+  border-right: 0;
+  border-top: 0;
+  color: #4d5156;
+  font-size: 15px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.button-login {
+  align-items: center;
+  background-color: #079992;
+  border-radius: 40px;
+  color: white;
+  cursor: pointer;
+  font-size: 18 px;
+  font-weight: 700;
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 12px;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.button-login:disabled {
+  align-items: center;
+  background-color: #e17055;
+  border-radius: 40px;
+  color: white;
+  font-size: 18 px;
+  height: 50px;
+  justify-content: center;
+  margin-top: 30px;
+  width: 300px;
+}
+
+/* ==========------COMPONENT FOOTER--------========== */
+
+/* -------------------------------------------------- */
+.footer {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.footer button {
+  margin: 20px;
+}
+
+/* ==========----COMPONENT INPROGRESS------========== */
+
+/* -------------------------------------------------- */
+.list-ingredients {
+  display: flex;
+  flex-direction: row;
+}
